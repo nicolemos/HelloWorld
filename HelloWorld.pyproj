@@ -47,15 +47,16 @@
     <Compile Include="pages\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pages\templates\pages\index.html" />
+    <Content Include="templates\about.html" />
+    <Content Include="templates\base.html" />
+    <Content Include="templates\home.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HelloWorld\" />
+    <Folder Include="templates\" />
     <Folder Include="pages\" />
     <Folder Include="pages\migrations\" />
-    <Folder Include="pages\templates\" />
-    <Folder Include="pages\templates\pages\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="worldvenv\">
