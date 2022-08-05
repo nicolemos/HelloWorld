@@ -47,7 +47,6 @@
     <Compile Include="pages\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Procfile.txt" />
     <Content Include="runtime.txt" />
     <Content Include="templates\about.html" />
     <Content Include="templates\base.html" />
